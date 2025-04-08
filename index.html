@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Endless Roguelike Action Game</title>
+    <meta name="description" content="Play Monster Survivors online! A thrilling roguelike game where you survive waves of monsters while collecting power-ups and upgrading your character.">
+    <link rel="canonical" href="https://monstersurvivors.com">
+    <style>
+        /* Base styles with Apple-inspired color scheme */
+        :root {
+            --apple-blue: #007AFF;
+            --apple-green: #34C759;
+            --apple-red: #FF3B30;
+            --apple-orange: #FF9500;
+            --apple-gray: #8E8E93;
+            --apple-light-gray: #F2F2F7;
+            --apple-dark: #1C1C1E;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        
+        body {
+            background-color: var(--apple-light-gray);
+            color: var(--apple-dark);
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: white;
+            border-bottom: 1px solid #e5e5e5;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: var(--apple-blue);
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        .tagline {
+            font-size: 1.25rem;
+            color: var(--apple-gray);
+            margin-bottom: 1.5rem;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            color: var(--apple-dark);
+            margin: 2rem 0 1rem;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 1.5rem;
+        }
+        
+        .game-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            background-color: #000;
+            margin-bottom: 2rem;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .game-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .info-section {
+            background-color: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .feature-card {
+            background-color: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        .feature-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--apple-blue);
+        }
+        
+        .controls {
+            background-color: var(--apple-light-gray);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .controls ul {
+            list-style-type: none;
+            margin-left: 1rem;
+        }
+        
+        .controls li {
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--apple-dark);
+            color: white;
+            margin-top: 2rem;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .tagline {
+                font-size: 1.1rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .info-section {
+                padding: 1.5rem;
+            }
+            
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Monster Survivors</h1>
+            <p class="tagline">Survive the onslaught of monsters in this thrilling roguelike adventure!</p>
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="game-container">
+            <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" allowfullscreen></iframe>
+        </div>
+        
+        <section class="info-section">
+            <h2>About The Game</h2>
+            <p>Monster Survivors is an exhilarating roguelike survival game where you face waves of increasingly challenging monsters. Collect power-ups, level up your character, and see how long you can survive in this action-packed adventure.</p>
+            
+            <p>As time passes, the difficulty increases, requiring strategic choices about which upgrades to select and how to navigate the monster-filled battlefield. Will you focus on offensive abilities or defensive tactics? The choice is yours!</p>
+            
+            <div class="controls">
+                <h2>Game Controls</h2>
+                <ul>
+                    <li><strong>WASD or Arrow Keys:</strong> Move your character</li>
+                    <li><strong>Mouse:</strong> Aim your attacks</li>
+                    <li><strong>Space:</strong> Special ability (when available)</li>
+                    <li><strong>P:</strong> Pause game</li>
+                </ul>
+            </div>
+        </section>
+        
+        <h2>Game Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-title">Roguelike Progression</div>
+                <p>Each run is unique with procedurally generated levels and random power-ups, providing endless replayability.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-title">Character Evolution</div>
+                <p>Level up your character and choose from a variety of abilities and upgrades to create your own unique playstyle.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-title">Diverse Enemies</div>
+                <p>Battle against a wide array of monsters, each with unique behaviors and attack patterns that will test your reflexes.</p>
+            </div>
+        </div>
+        
+        <section class="info-section">
+            <h2>Tips and Strategies</h2>
+            <p>Mastering Monster Survivors requires both quick reflexes and thoughtful strategy. Here are some tips to help you survive longer:</p>
+            <ul>
+                <li>Focus on movement speed early to help avoid monsters more effectively</li>
+                <li>Try to maintain consistent damage output by balancing offensive and defensive upgrades</li>
+                <li>Don't get cornered! Always have an escape route planned</li>
+                <li>Prioritize eliminating more dangerous monster types first</li>
+                <li>Experiment with different upgrade paths to discover powerful synergies</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Monster Survivors. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
